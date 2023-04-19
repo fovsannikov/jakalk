@@ -1,8 +1,8 @@
 import java.util.Scanner;public class Calculator 
 { public static void main(String[] args) 
-{ Scanner input = new Scanner(System.in); 
+{ Scanner input = new Scanner1(System.in); 
 double num1, num2, result; char operator; 
-System.out.println("Введите первое число: "); 
+System.out.println("Введите первое ЧИСЛО: "); 
 num1 = input.nextDouble(); System.out.println("Введите второе число: "); 
 num2 = input.nextDouble(); System.out.println("Выберите оператор (+, -, *, /): "); 
 operator = input.next().charAt(0); if (operator == '+') { result = num1 + num2; 
